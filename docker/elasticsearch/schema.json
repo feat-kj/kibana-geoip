@@ -1,0 +1,18 @@
+{
+  "mappings": {
+      "geo_ips": {
+        "properties": {
+          "ip": {
+            "type": "string",
+            "index" : "not_analyzed"
+          },
+          "location": {
+            "type": "geo_point"
+          }
+        }
+      }
+    }
+  }
+}
+
+/*curl -XPUT localhost:9200/geo_ips --data-binary @schema.json*/

@@ -1,0 +1,21 @@
+in:
+  type: file
+  path_prefix: /opt/log/geoip
+  parser:
+    charset: UTF-8
+    newline: CRLF
+    type: csv
+    delimiter: ','
+    quote: '"'
+    escape: ''
+    header_line: true
+    columns:
+    - {name: "ip", type: string}
+    - {name: "location", type: string}
+out:
+  type: elasticsearch
+  mode: insert
+  nodes:
+    - {host: elasticsearch, port: 9200}
+  index: geo_ips # plugin generates index name like <index>_%Y%m%d-%H%M%S
+  index_type: geo_ips

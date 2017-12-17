@@ -1,0 +1,7 @@
+in:
+  type: file
+  path_prefix: /opt/log/test_
+  parser:
+    type: apache-custom-log
+    format: "%h %v"
+out: {type: stdout}

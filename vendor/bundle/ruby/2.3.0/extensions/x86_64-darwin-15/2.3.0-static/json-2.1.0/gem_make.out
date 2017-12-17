@@ -1,0 +1,21 @@
+current directory: /Users/ohata/project/kibanageoip/vendor/bundle/ruby/2.3.0/gems/json-2.1.0/ext/json/ext/generator
+/Users/ohata/.rbenv/versions/2.3.1/bin/ruby -r ./siteconf20171213-9725-5yh5vw.rb extconf.rb 
+creating Makefile
+
+current directory: /Users/ohata/project/kibanageoip/vendor/bundle/ruby/2.3.0/gems/json-2.1.0/ext/json/ext/generator
+make "DESTDIR=" clean
+
+
+Agreeing to the Xcode/iOS license requires admin privileges, please run “sudo xcodebuild -license” and then retry this command.
+
+
+
+current directory: /Users/ohata/project/kibanageoip/vendor/bundle/ruby/2.3.0/gems/json-2.1.0/ext/json/ext/generator
+make "DESTDIR="
+
+
+Agreeing to the Xcode/iOS license requires admin privileges, please run “sudo xcodebuild -license” and then retry this command.
+
+
+
+make failed, exit code 69
